@@ -1,0 +1,2 @@
+//Checks to see if Previous field is the same if it is it suppresses the field
+=IIf(Previous(Fields!OrderHed_OrderNum.Value) = Fields!OrderHed_OrderNum.Value, Nothing, Fields!Customer_Name.Value & ": "& Fields!Customer_CustID.Value )
