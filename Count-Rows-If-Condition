@@ -1,0 +1,3 @@
+//Count Rows in total based on condition
+
+=COUNT(IIF(Fields!OrderHed_OpenOrder.Value="True",1,Nothing))
